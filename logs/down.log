@@ -1,0 +1,20 @@
+test2020-03-28 18:19:56,185 - connecting to mq downstream2
+2020-03-28 18:19:56,219 - Pika version 1.1.0 connecting to ('192.168.99.100', 5672)
+2020-03-28 18:19:57,239 - Socket failed to connect: <socket.socket fd=640, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 51899)>; error=10061 (Unknown error)
+2020-03-28 18:19:57,240 - TCP Connection attempt failed: ConnectionRefusedError(10061, 'Unknown error'); dest=(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('192.168.99.100', 5672))
+2020-03-28 18:19:57,241 - AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(10061, 'Unknown error')
+2020-03-28 18:19:57,243 - AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(10061, 'Unknown error'); first exception - None.
+2020-03-28 18:19:57,243 - AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(10061, 'Unknown error'); first exception - None
+2020-03-28 18:19:57,244 - Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(10061, 'Unknown error'); first exception - None
+2020-03-28 18:19:57,244 - Error in _create_connection().
+Traceback (most recent call last):
+  File "E:\nishikant project\DOCKER\Nexus\venv\lib\site-packages\pika\adapters\blocking_connection.py", line 450, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+pika.exceptions.AMQPConnectionError
+bbbbbbbbbbb bbbbbbbbbbbbb bbbbbbbbbbbb
+CCCCCCCCCCCC CCCCCCCCCCCCC CCCCCCCCCCC
+DDDDDDDDDDDDDDDD DDDDDDDDDDDDDDD
+EEEEEEEEEEEEE EEEEEEEEEEEEEEEEEEEE
+FFFFFFFFFF FFFFFFFFFFFFF
+gs shgs shs shs shc hs chs shs hs
+jbj jucbu 8njkj e ipn eqlk
